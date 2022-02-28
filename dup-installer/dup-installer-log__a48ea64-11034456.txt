@@ -1,0 +1,1076 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 03:50:47
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.27-1+bionic                       |7.4.3
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2021-05-11 03:44:56
+WP VERSION__________: 5.7.1
+DUP VERSION_________: 1.4.0
+DB__________________: 10.1.47
+DB TABLES___________: 84
+DB ROWS_____________: 39,978
+DB FILE SIZE________: 89.75MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.3 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.3
+DOC ROOT____________: "C:/xampp/htdocs/lucthaonguyen"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/lucthaonguyen/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/lucthaonguyen/20210511_lucthaonguyen_[HASH]_20210511034456_archive.zip"
+SIZE________________: 293.56MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/lucthaonguyen/20210511_lucthaonguyen_[HASH]_20210511034456_archive.zip"
+SIZE________________: 293.56MBFile timestamp set to Current: 2021-05-11 03:51:13
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 03:51:13 - RUNTIME: 25.8164 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 03:51:43
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.11 -- Build Server: 10.1.47
+FILE SIZE:	dup-database__[HASH].sql (60.65MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/lucthaonguyen/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+[PHP ERR][NOTICE] MSG:Trying to access array offset on value of type null [CODE:8|FILE:C:\xampp\htdocs\lucthaonguyen\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:249]
+**ERROR** Query size limit [length=1048576] [sql=...]
+[PHP ERR][NOTICE] MSG:Trying to access array offset on value of type null [CODE:8|FILE:C:\xampp\htdocs\lucthaonguyen\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:249]
+**ERROR** Query size limit [length=1048576] [sql=...]
+[PHP ERR][NOTICE] MSG:Trying to access array offset on value of type null [CODE:8|FILE:C:\xampp\htdocs\lucthaonguyen\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:249]
+**ERROR** Query size limit [length=1048576] [sql=...]
+[PHP ERR][NOTICE] MSG:Trying to access array offset on value of type null [CODE:8|FILE:C:\xampp\htdocs\lucthaonguyen\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:249]
+**ERROR** Query size limit [length=1048576] [sql=...]
+[PHP ERR][NOTICE] MSG:Trying to access array offset on value of type null [CODE:8|FILE:C:\xampp\htdocs\lucthaonguyen\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:249]
+**ERROR** Query size limit [length=1048576] [sql=...]
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DATABASE: table "wp_postmeta" row count mismatch; expected "26260" in database"26255"
+ERROR: Database Table row count verification was failed for table(s): wp_postmeta
+ERRORS FOUND:	5
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	771
+
+bonusfees: (0)
+customers: (0)
+failed_jobs: (0)
+migrations: (12)
+order_product: (0)
+orders: (0)
+password_resets: (0)
+permissions: (0)
+products: (0)
+roles: (0)
+servicefees: (0)
+users: (0)
+wp_actionscheduler_actions: (19)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (2)
+wp_actionscheduler_logs: (57)
+wp_ce4wp_abandoned_checkout: (0)
+wp_commentmeta: (0)
+wp_comments: (16)
+wp_duplicator_packages: (0)
+wp_icl_content_status: (0)
+wp_icl_core_status: (0)
+wp_icl_flags: (65)
+wp_icl_languages: (65)
+wp_icl_languages_translations: (4225)
+wp_icl_locale_map: (2)
+wp_icl_message_status: (0)
+wp_icl_mo_files_domains: (0)
+wp_icl_node: (0)
+wp_icl_reminders: (0)
+wp_icl_string_batches: (0)
+wp_icl_string_packages: (66)
+wp_icl_string_pages: (0)
+wp_icl_string_positions: (0)
+wp_icl_string_status: (0)
+wp_icl_string_translations: (40)
+wp_icl_string_urls: (0)
+wp_icl_strings: (1053)
+wp_icl_translate: (8)
+wp_icl_translate_job: (1)
+wp_icl_translation_batches: (1)
+wp_icl_translation_downloads: (0)
+wp_icl_translation_status: (434)
+wp_icl_translations: (1267)
+wp_links: (0)
+wp_mailchimp_carts: (0)
+wp_mailchimp_jobs: (0)
+wp_options: (551)
+wp_postmeta: (26255)
+wp_posts: (3523)
+wp_term_relationships: (680)
+wp_term_taxonomy: (77)
+wp_termmeta: (141)
+wp_terms: (77)
+wp_userinfo: (0)
+wp_usermeta: (77)
+wp_users: (1)
+wp_wc_admin_note_actions: (35)
+wp_wc_admin_notes: (33)
+wp_wc_category_lookup: (91)
+wp_wc_customer_lookup: (2)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (18)
+wp_wc_order_stats: (11)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (110)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (222)
+wp_woocommerce_order_items: (28)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (2)
+wp_woocommerce_shipping_zone_locations: (1)
+wp_woocommerce_shipping_zone_methods: (2)
+wp_woocommerce_shipping_zones: (1)
+wp_woocommerce_tax_rate_locations: (2)
+wp_woocommerce_tax_rates: (1)
+Removed '264' cache/transient rows
+
+INSERT DATA RUNTIME: 10.1955 sec.
+STEP-2 COMPLETE @ 03:51:54 - RUNTIME: 10.2477 sec.
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] QUERY ERROR: size limit
+
+-----------------------
+[WARNING] Database Table row count validation was failed
+	SECTIONS: database
+	LONG MSG: DATABASE: table "wp_postmeta" row count mismatch; expected "26260" in database"26255"
+
+
+====================================
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 03:52:03
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Lục Thảo Nguyên"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/dev.lucthaonguyen.vn/public_html"
+path_new______________: "C:/xampp/htdocs/lucthaonguyen"
+siteurl_______________: "http://localhost/lucthaonguyen"
+url_old_______________: "http://dev.lucthaonguyen.vn"
+url_new_______________: "http://localhost/lucthaonguyen"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "bonusfees"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "customers"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "failed_jobs"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "migrations"______________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "order_product"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "orders"__________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "password_resets"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "permissions"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "products"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "roles"___________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "servicefees"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "users"___________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:    57][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_ce4wp_abandoned_checkout"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_content_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_core_status"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_flags"____________________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_icl_languages"________________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_icl_languages_translations"___________________[ROWS:  4225][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_icl_locale_map"_______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_icl_message_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_mo_files_domains"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_node"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_reminders"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_batches"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_packages"__________________________[ROWS:    66][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_icl_string_pages"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_positions"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_status"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_translations"______________________[ROWS:    40][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_icl_string_urls"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_strings"__________________________________[ROWS:  1053][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_icl_translate"________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_icl_translate_job"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_icl_translation_batches"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_icl_translation_downloads"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_translation_status"_______________________[ROWS:   434][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_icl_translations"_____________________________[ROWS:  1267][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailchimp_carts"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailchimp_jobs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   551][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 26255][PG:   8][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  3523][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   680][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    77][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:   141][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    77][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_userinfo"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    77][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:    91][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:   110][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:   222][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:    28][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/dev.lucthaonguyen.vn/public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  2:"\/home\/dev.lucthaonguyen.vn\/public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  3:"%2Fhome%2Fdev.lucthaonguyen.vn%2Fpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  4:"\home\dev.lucthaonguyen.vn\public_html" ==========> "C:/xampp/htdocs/lucthaonguyen"
+	SEARCH  5:"\\home\\dev.lucthaonguyen.vn\\public_html" =======> "C:\/xampp\/htdocs\/lucthaonguyen"
+	SEARCH  6:"%5Chome%5Cdev.lucthaonguyen.vn%5Cpublic_html" ====> "C%3A%2Fxampp%2Fhtdocs%2Flucthaonguyen"
+	SEARCH  7:"//dev.lucthaonguyen.vn" ==========================> "//localhost/lucthaonguyen"
+	SEARCH  8:"\/\/dev.lucthaonguyen.vn" ========================> "\/\/localhost\/lucthaonguyen"
+	SEARCH  9:"%2F%2Fdev.lucthaonguyen.vn" ======================> "%2F%2Flocalhost%2Flucthaonguyen"
+	SEARCH 10:"https://localhost/lucthaonguyen" =================> "http://localhost/lucthaonguyen"
+	SEARCH 11:"https:\/\/localhost\/lucthaonguyen" ==============> "http:\/\/localhost\/lucthaonguyen"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Flucthaonguyen" =========> "http%3A%2F%2Flocalhost%2Flucthaonguyen"
+--------------------------------------
+SCANNED:	Tables:84 	|	 Rows:39276 	|	 Cells:245850 
+UPDATED:	Tables:8 	|	 Rows:4994 	|	 Cells:6159 
+ERRORS:		0 
+RUNTIME:	7.888800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 03:52:11 - RUNTIME: 7.9338 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] STEP 2 - INSTALL NOTICES (5)
+	SECTIONS: database
+	LONG MSG:         Queries that error during the deploy step are logged to the <a href="./dup-installer-log__a48ea64-11034456.txt" target="dup-installer">install-log.txt</a> file and
+and marked with an **ERROR** status.   If you experience a few errors (under 5), in many cases they can be ignored as long as your site is working correctly.
+However if you see a large amount of errors or you experience an issue with your site then the error messages in the log file will need to be investigated.
+<br/><br/>
+
+<b>COMMON FIXES:</b>
+<ul>
+    <li>
+        <b>Unknown collation:</b> See Online FAQ:
+        <a href="https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-110-q" target="_blank">What is Compatibility mode & 'Unknown collation' errors?</a>
+    </li>
+    <li>
+        <b>Query Limits:</b> Update MySQL server with the <a href="https://dev.mysql.com/doc/refman/5.5/en/packet-too-large.html" target="_blank">max_allowed_packet</a>
+        setting for larger payloads.
+    </li>
+</ul>
+
+-----------------------
+[WARNING] Some errors in the database (7)
+	SECTIONS: database
+
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] QUERY ERROR: size limit
+	SECTIONS: database
+	LONG MSG: **ERROR** Query size limit [length=1048576] [sql=...]
+
+-----------------------
+[WARNING] QUERY ERROR: size limit
+	SECTIONS: database
+	LONG MSG: **ERROR** Query size limit [length=1048576] [sql=...]
+
+-----------------------
+[WARNING] QUERY ERROR: size limit
+	SECTIONS: database
+	LONG MSG: **ERROR** Query size limit [length=1048576] [sql=...]
+
+-----------------------
+[WARNING] QUERY ERROR: size limit
+	SECTIONS: database
+	LONG MSG: **ERROR** Query size limit [length=1048576] [sql=...]
+
+-----------------------
+[WARNING] QUERY ERROR: size limit
+	SECTIONS: database
+	LONG MSG: **ERROR** Query size limit [length=1048576] [sql=...]
+
+-----------------------
+[WARNING] Database Table row count validation was failed
+	SECTIONS: database
+	LONG MSG: DATABASE: table "wp_postmeta" row count mismatch; expected "26260" in database"26255"
+
+
+====================================

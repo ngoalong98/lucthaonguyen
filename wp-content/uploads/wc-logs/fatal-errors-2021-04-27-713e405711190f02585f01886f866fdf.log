@@ -1,0 +1,20 @@
+2021-04-27T10:21:33+00:00 CRITICAL Uncaught Error: Call to undefined function has_the_post_thumbnail() in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/template-parts/carousel.php:207
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php(379): include()
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-includes/shortcodes.php(343): sanpham_slider('', '', 'test_shortcode')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(test_s...', 'do_shortcode_ta...', '[test_shortcode...')
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[test_shortcode...')
+#5 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(1892): Elementor\Widget_Shortcode->render()
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(549): Elementor\Co in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/template-parts/carousel.php on line 207
+
+2021-04-27T10:21:36+00:00 CRITICAL Uncaught Error: Call to undefined function has_the_post_thumbnail() in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/template-parts/carousel.php:207
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php(379): include()
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-includes/shortcodes.php(343): sanpham_slider('', '', 'test_shortcode')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(test_s...', 'do_shortcode_ta...', '[test_shortcode...')
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[test_shortcode...')
+#5 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(1892): Elementor\Widget_Shortcode->render()
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(549): Elementor\Co in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/template-parts/carousel.php on line 207
+

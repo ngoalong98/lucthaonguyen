@@ -1,0 +1,104 @@
+{
+    "globalData": {
+        "uniqueCountId": 5
+    },
+    "nextStep": [],
+    "finalReport": {
+        "__auto_unique_id__1": {
+            "shortMsg": "QUERY ERROR: size limit",
+            "level": 2,
+            "longMsg": "**ERROR** Query size limit [length=1048576] [sql=...]",
+            "sections": [
+                "database"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "def"
+        },
+        "__auto_unique_id__2": {
+            "shortMsg": "QUERY ERROR: size limit",
+            "level": 2,
+            "longMsg": "**ERROR** Query size limit [length=1048576] [sql=...]",
+            "sections": [
+                "database"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "def"
+        },
+        "__auto_unique_id__3": {
+            "shortMsg": "QUERY ERROR: size limit",
+            "level": 2,
+            "longMsg": "**ERROR** Query size limit [length=1048576] [sql=...]",
+            "sections": [
+                "database"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "def"
+        },
+        "__auto_unique_id__4": {
+            "shortMsg": "QUERY ERROR: size limit",
+            "level": 2,
+            "longMsg": "**ERROR** Query size limit [length=1048576] [sql=...]",
+            "sections": [
+                "database"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "def"
+        },
+        "__auto_unique_id__5": {
+            "shortMsg": "QUERY ERROR: size limit",
+            "level": 2,
+            "longMsg": "**ERROR** Query size limit [length=1048576] [sql=...]",
+            "sections": [
+                "database"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "def"
+        },
+        "row-count-mismatch": {
+            "shortMsg": "Database Table row count validation was failed",
+            "level": 2,
+            "longMsg": "DATABASE: table \"wp_postmeta\" row count mismatch; expected \"26260\" in database\"26255\"\n",
+            "sections": [
+                "database"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "def"
+        },
+        "wp-config-changes": {
+            "shortMsg": "wp-config.php changes",
+            "level": 0,
+            "longMsg": "        <a class=\"dup-ligthbox-link\" data-dup-ligthbox=\"dup-html-id-1-1620705131-2329\" >wp-config.php changes<\/a>\r\n        <div id=\"dup-html-id-1-1620705131-2329\" class=\"dub-ligthbox-content close\">\r\n            <div class=\"wrapper\" >\r\n                <h2 class=\"title\" >WP-CONFIG.PHP COMPARE<\/h2>\r\n                <div class=\"content\" ><div class=\"row-cols-2\"><div class=\"col col-1\"><b>Original wp-config.php<\/b><pre>&lt;?php\n\n\/**\n\n * The base configuration for WordPress\n\n *\n\n * The wp-config.php creation script uses this file during the\n\n * installation. You don't have to use the web site, you can\n\n * copy this file to &quot;wp-config.php&quot; and fill in the values.\n\n *\n\n * This file contains the following configurations:\n\n *\n\n * * MySQL settings\n\n * * Secret keys\n\n * * Database table prefix\n\n * * ABSPATH\n\n *\n\n * @link https:\/\/wordpress.org\/support\/article\/editing-wp-config-php\/\n\n *\n\n * @package WordPress\n\n *\/\n\n\n\/\/ ** MySQL settings - You can get this info from your web host ** \/\/\n\n\/** The name of the database for WordPress *\/\n\ndefine( 'DB_NAME', '**OBSCURED**' );\n\n\n\/** MySQL database username *\/\n\ndefine( 'DB_USER', '**OBSCURED**' );\n\n\n\/** MySQL database password *\/\n\ndefine( 'DB_PASSWORD', '**OBSCURED**' );\n\n\n\/** MySQL hostname *\/\n\ndefine( 'DB_HOST', '**OBSCURED**' );\n\n\n\/** Database Charset to use in creating database tables. *\/\n\ndefine( 'DB_CHARSET', 'utf8mb4' );\n\n\n\/** The Database Collate type. Don't change this if in doubt. *\/\n\ndefine( 'DB_COLLATE', '' );\n\n\n\/**#@+\n\n * Authentication Unique Keys and Salts.\n\n *\n\n * Change these to different unique phrases!\n\n * You can generate these using the {@link https:\/\/api.wordpress.org\/secret-key\/1.1\/salt\/ WordPress.org secret-key service}\n\n * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.\n\n *\n\n * @since 2.6.0\n\n *\/\n\ndefine( 'AUTH_KEY',         '**OBSCURED**' );\n\ndefine( 'SECURE_AUTH_KEY',  '**OBSCURED**' );\n\ndefine( 'LOGGED_IN_KEY',    '**OBSCURED**' );\n\ndefine( 'NONCE_KEY',        '**OBSCURED**' );\n\ndefine( 'AUTH_SALT',        '**OBSCURED**' );\n\ndefine( 'SECURE_AUTH_SALT', '**OBSCURED**' );\n\ndefine( 'LOGGED_IN_SALT',   '**OBSCURED**' );\n\ndefine( 'NONCE_SALT',       '**OBSCURED**' );\n\n\n\/**#@-*\/\n\n\n\/**\n\n * WordPress Database Table prefix.\n\n *\n\n * You can have multiple installations in one database if you give each\n\n * a unique prefix. Only numbers, letters, and underscores please!\n\n *\/\n\n$table_prefix = 'wp_';\n\n\n\/**\n\n * For developers: WordPress debugging mode.\n\n *\n\n * Change this to true to enable the display of notices during development.\n\n * It is strongly recommended that plugin and theme developers use WP_DEBUG\n\n * in their development environments.\n\n *\n\n * For information on other constants that can be used for debugging,\n\n * visit the documentation.\n\n *\n\n * @link https:\/\/wordpress.org\/support\/article\/debugging-in-wordpress\/\n\n *\/\n\ndefine( 'WP_DEBUG', false );\n\n\n\/* That's all, stop editing! Happy publishing. *\/\n\n\n\/** Absolute path to the WordPress directory. *\/\n\nif ( ! defined( 'ABSPATH' ) ) {\n\n\tdefine( 'ABSPATH', __DIR__ . '\/' );\n\n}\n\n\n\/** Sets up WordPress vars and included files. *\/\n\nrequire_once ABSPATH . 'wp-settings.php';\n\n<\/pre><\/div><div class=\"col col-2\"><b>New wp-config.php<\/b><pre>&lt;?php\n\n\/**\n\n * The base configuration for WordPress\n\n *\n\n * The wp-config.php creation script uses this file during the\n\n * installation. You don't have to use the web site, you can\n\n * copy this file to &quot;wp-config.php&quot; and fill in the values.\n\n *\n\n * This file contains the following configurations:\n\n *\n\n * * MySQL settings\n\n * * Secret keys\n\n * * Database table prefix\n\n * * ABSPATH\n\n *\n\n * @link https:\/\/wordpress.org\/support\/article\/editing-wp-config-php\/\n\n *\n\n * @package WordPress\n\n *\/\n\n\n\/\/ ** MySQL settings - You can get this info from your web host ** \/\/\n\n\/** The name of the database for WordPress *\/\n\ndefine( 'DB_NAME', '**OBSCURED**' );\n\n\n\/** MySQL database username *\/\n\ndefine( 'DB_USER', '**OBSCURED**' );\n\n\n\/** MySQL database password *\/\n\ndefine( 'DB_PASSWORD', '**OBSCURED**' );\n\n\n\/** MySQL hostname *\/\n\ndefine( 'DB_HOST', '**OBSCURED**' );\n\n\n\/** Database Charset to use in creating database tables. *\/\n\ndefine( 'DB_CHARSET', 'utf8mb4' );\n\n\n\/** The Database Collate type. Don't change this if in doubt. *\/\n\ndefine( 'DB_COLLATE', '' );\n\n\n\/**#@+\n\n * Authentication Unique Keys and Salts.\n\n *\n\n * Change these to different unique phrases!\n\n * You can generate these using the {@link https:\/\/api.wordpress.org\/secret-key\/1.1\/salt\/ WordPress.org secret-key service}\n\n * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.\n\n *\n\n * @since 2.6.0\n\n *\/\n\ndefine( 'AUTH_KEY',         '**OBSCURED**' );\n\ndefine( 'SECURE_AUTH_KEY',  '**OBSCURED**' );\n\ndefine( 'LOGGED_IN_KEY',    '**OBSCURED**' );\n\ndefine( 'NONCE_KEY',        '**OBSCURED**' );\n\ndefine( 'AUTH_SALT',        '**OBSCURED**' );\n\ndefine( 'SECURE_AUTH_SALT', '**OBSCURED**' );\n\ndefine( 'LOGGED_IN_SALT',   '**OBSCURED**' );\n\ndefine( 'NONCE_SALT',       '**OBSCURED**' );\n\n\n\/**#@-*\/\n\n\n\/**\n\n * WordPress Database Table prefix.\n\n *\n\n * You can have multiple installations in one database if you give each\n\n * a unique prefix. Only numbers, letters, and underscores please!\n\n *\/\n\n$table_prefix = 'wp_';\n\n\n\/**\n\n * For developers: WordPress debugging mode.\n\n *\n\n * Change this to true to enable the display of notices during development.\n\n * It is strongly recommended that plugin and theme developers use WP_DEBUG\n\n * in their development environments.\n\n *\n\n * For information on other constants that can be used for debugging,\n\n * visit the documentation.\n\n *\n\n * @link https:\/\/wordpress.org\/support\/article\/debugging-in-wordpress\/\n\n *\/\n\ndefine( 'WP_DEBUG', false );\n\n\n\/* That's all, stop editing! Happy publishing. *\/\n\n\n\/** Absolute path to the WordPress directory. *\/\n\nif ( ! defined( 'ABSPATH' ) ) {\n\n\tdefine( 'ABSPATH', __DIR__ . '\/' );\n\n}\n\n\n\/** Sets up WordPress vars and included files. *\/\n\nrequire_once ABSPATH . 'wp-settings.php';\n\n<\/pre><\/div><\/div><\/div>                <button class=\"close-button\" title=\"Close\" ><i class=\"fa fa-2x fa-times\"><\/i><\/button>\r\n            <\/div>\r\n        <\/div>\r\n        ",
+            "sections": [
+                "changes"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": true,
+            "longMsgMode": "html"
+        },
+        "htaccess-changes": {
+            "shortMsg": "htaccess changes",
+            "level": 0,
+            "longMsg": "        <a class=\"dup-ligthbox-link\" data-dup-ligthbox=\"dup-html-id-2-1620705131-2335\" >.htaccess changes<\/a>\r\n        <div id=\"dup-html-id-2-1620705131-2335\" class=\"dub-ligthbox-content close\">\r\n            <div class=\"wrapper\" >\r\n                <h2 class=\"title\" >HTACCESS COMPARE<\/h2>\r\n                <div class=\"content\" ><div class=\"row-cols-2\"><div class=\"col col-1\"><b>Original .htaccess<\/b><pre># BEGIN LSCACHE\n## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##\n&lt;IfModule LiteSpeed&gt;\nRewriteEngine on\nCacheLookup on\nRewriteRule .* - [E=Cache-Control:no-autoflush]\nRewriteRule ^min\/\\w+\\.(css|js) - [E=cache-control:no-vary]\n\n### marker CACHE RESOURCE start ###\nRewriteRule wp-content\/.*\/[^\/]*(responsive|css|js|dynamic|loader|fonts)\\.php - [E=cache-control:max-age=3600]\n### marker CACHE RESOURCE end ###\n\n### marker LOGIN COOKIE start ###\nRewriteRule .? - [E=&quot;Cache-Vary:wp-postpass_54bf025219ba6e8122c59f76e06155b1&quot;]\n### marker LOGIN COOKIE end ###\n\n### marker FAVICON start ###\nRewriteRule favicon\\.ico$ - [E=cache-control:max-age=86400]\n### marker FAVICON end ###\n\n&lt;\/IfModule&gt;\n## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##\n# END LSCACHE\n# BEGIN NON_LSCACHE\n## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##\n### marker MINIFY start ###\n&lt;IfModule mod_rewrite.c&gt;\nRewriteEngine on\nRewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} ^(.*)\/min\/(\\w+)\\.(css|js)$\nRewriteCond %1\/wp-content\/cache\/$2\/$1.$2 -f\nRewriteRule min\/(\\w+)\\.(css|js) wp-content\/cache\/$2\/$1.$2 [L]\n&lt;\/IfModule&gt;\n### marker MINIFY end ###\n\n## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##\n# END NON_LSCACHE\n# BEGIN WordPress\n# The directives (lines) between &quot;BEGIN WordPress&quot; and &quot;END WordPress&quot; are\n# dynamically generated, and should only be modified via WordPress filters.\n# Any changes to the directives between these markers will be overwritten.\n&lt;IfModule mod_rewrite.c&gt;\nRewriteEngine On\nRewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]\nRewriteBase \/\nRewriteRule ^index\\.php$ - [L]\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteCond %{REQUEST_FILENAME} !-d\nRewriteRule . \/index.php [L]\n&lt;\/IfModule&gt;\n\n# END WordPress\n# BEGIN LiteSpeed\n# The directives (lines) between &quot;BEGIN LiteSpeed&quot; and &quot;END LiteSpeed&quot; are\n# dynamically generated, and should only be modified via WordPress filters.\n# Any changes to the directives between these markers will be overwritten.\n&lt;IfModule Litespeed&gt;\nSetEnv noabort 1\n&lt;\/IfModule&gt;\n# END LiteSpeed<\/pre><\/div><div class=\"col col-2\"><b>New .htaccess<\/b><pre>#This Apache config file was created by Duplicator Installer on 2021-05-11 03:52:03.\n#The original can be found in archived file with the name .htaccess__[HASH]\n\r\n# BEGIN WordPress\r\n&lt;IfModule mod_rewrite.c&gt;\r\nRewriteEngine On\r\nRewriteBase \/lucthaonguyen\/\r\nRewriteRule ^index\\.php$ - [L]\r\nRewriteCond %{REQUEST_FILENAME} !-f\r\nRewriteCond %{REQUEST_FILENAME} !-d\r\nRewriteRule . \/lucthaonguyen\/index.php [L]\r\n&lt;\/IfModule&gt;\r\n# END WordPress<\/pre><\/div><\/div><\/div>                <button class=\"close-button\" title=\"Close\" ><i class=\"fa fa-2x fa-times\"><\/i><\/button>\r\n            <\/div>\r\n        <\/div>\r\n        ",
+            "sections": [
+                "changes"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": true,
+            "longMsgMode": "html"
+        }
+    }
+}

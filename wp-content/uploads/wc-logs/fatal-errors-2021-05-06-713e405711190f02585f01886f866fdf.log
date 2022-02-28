@@ -1,0 +1,37 @@
+2021-05-06T04:16:53+00:00 CRITICAL syntax error, unexpected '<' in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 307
+
+2021-05-06T04:18:21+00:00 CRITICAL syntax error, unexpected '<' in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 308
+
+2021-05-06T04:18:37+00:00 CRITICAL syntax error, unexpected '<' in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 308
+
+2021-05-06T04:19:23+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 300
+
+2021-05-06T04:20:38+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woo-smart-quick-view/wpc-smart-quick-view.php:248
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-includes/shortcodes.php(343): WPCleverWoosq->woosq_shortcode(Array, '', 'woosq')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woosq)...', 'do_shortcode_ta...', '[woosq id=""]')
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php(308): do_shortcode('[woosq id=""]')
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-includes/shortcodes.php(343): homePageFeatureProduct('', '', 'FeatureProduct')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(Featur...', 'do_shortcode_ta...', '[FeatureProduct...')
+#7 /home/dev.lucthaonguyen.vn/public_html/wp-cont in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woo-smart-quick-view/wpc-smart-quick-view.php on line 248
+
+2021-05-06T04:32:10+00:00 CRITICAL Uncaught Error: Call to undefined function get_custom_logo_src() in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woo-smart-quick-view/wpc-smart-quick-view.php:215
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): WPCleverWoosq->woosq_quickview('')
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_woosq_q...')
+#4 {main}
+  thrown in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woo-smart-quick-view/wpc-smart-quick-view.php on line 215
+
+2021-05-06T04:32:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_custom_logo_src() in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woo-smart-quick-view/wpc-smart-quick-view.php:215
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): WPCleverWoosq->woosq_quickview('')
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_woosq_q...')
+#4 {main}
+  thrown in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woo-smart-quick-view/wpc-smart-quick-view.php on line 215
+

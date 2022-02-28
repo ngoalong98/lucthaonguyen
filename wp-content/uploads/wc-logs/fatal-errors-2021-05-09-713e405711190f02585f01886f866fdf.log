@@ -1,0 +1,36 @@
+2021-05-09T08:16:42+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_price() in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woo-smart-quick-view/wpc-smart-quick-view.php:218
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): WPCleverWoosq->woosq_quickview('')
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_woosq_q...')
+#4 {main}
+  thrown in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woo-smart-quick-view/wpc-smart-quick-view.php on line 218
+
+2021-05-09T08:16:58+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_price() in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woo-smart-quick-view/wpc-smart-quick-view.php:218
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): WPCleverWoosq->woosq_quickview('')
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_woosq_q...')
+#4 {main}
+  thrown in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woo-smart-quick-view/wpc-smart-quick-view.php on line 218
+
+2021-05-09T08:23:58+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_excerpt() in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woo-smart-quick-view/wpc-smart-quick-view.php:219
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): WPCleverWoosq->woosq_quickview('')
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_woosq_q...')
+#4 {main}
+  thrown in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woo-smart-quick-view/wpc-smart-quick-view.php on line 219
+
+2021-05-09T08:24:11+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_excerpt() in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woo-smart-quick-view/wpc-smart-quick-view.php:219
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): WPCleverWoosq->woosq_quickview('')
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_woosq_q...')
+#4 {main}
+  thrown in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woo-smart-quick-view/wpc-smart-quick-view.php on line 219
+

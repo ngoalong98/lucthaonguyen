@@ -1,0 +1,28 @@
+2021-05-08T09:03:26+00:00 CRITICAL syntax error, unexpected 'wp_login_form' (T_STRING) in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 403
+
+2021-05-08T09:03:38+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 403
+
+2021-05-08T09:03:47+00:00 CRITICAL syntax error, unexpected 'wp_login_form' (T_STRING) in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 403
+
+2021-05-08T09:09:10+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 412
+
+2021-05-08T09:09:15+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 412
+
+2021-05-08T09:09:25+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 412
+
+2021-05-08T09:09:32+00:00 CRITICAL syntax error, unexpected '$form_login' (T_VARIABLE) in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 412
+
+2021-05-08T09:14:04+00:00 CRITICAL syntax error, unexpected '' ); ?>" method="post">' (T_CONSTANT_ENCAPSED_STRING) in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 414
+
+2021-05-08T09:14:20+00:00 CRITICAL syntax error, unexpected '/' in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 405
+
+2021-05-08T09:20:53+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 405
+
+2021-05-08T09:21:01+00:00 CRITICAL syntax error, unexpected '.' in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 405
+
+2021-05-08T09:32:35+00:00 CRITICAL syntax error, unexpected '$form_login' (T_VARIABLE) in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 405
+
+2021-05-08T09:34:03+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 409
+
+2021-05-08T13:23:05+00:00 CRITICAL syntax error, unexpected '<' in /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/functions.php on line 404
+

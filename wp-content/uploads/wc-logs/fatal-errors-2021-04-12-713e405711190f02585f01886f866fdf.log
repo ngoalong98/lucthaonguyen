@@ -1,0 +1,120 @@
+2021-04-12T01:49:21+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1344): wc_get_template('loop/sale-flash...')
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_show_product_loop_sale_flash('')
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/woocommerce/content-product.php(42): do_action('woocommerce_bef...')
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-includes/template.php(732): require('/home/dev.lucth in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
+2021-04-12T01:49:24+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1344): wc_get_template('loop/sale-flash...')
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_show_product_loop_sale_flash('')
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/woocommerce/content-product.php(42): do_action('woocommerce_bef...')
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-includes/template.php(732): require('/home/dev.lucth in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
+2021-04-12T01:49:38+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1344): wc_get_template('loop/sale-flash...')
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_show_product_loop_sale_flash('')
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/woocommerce/content-product.php(42): do_action('woocommerce_bef...')
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-includes/template.php(732): require('/home/dev.lucth in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
+2021-04-12T01:49:38+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1344): wc_get_template('loop/sale-flash...')
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_show_product_loop_sale_flash('')
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/woocommerce/content-product.php(42): do_action('woocommerce_bef...')
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-includes/template.php(732): require('/home/dev.lucth in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
+2021-04-12T01:49:42+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1344): wc_get_template('loop/sale-flash...')
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_show_product_loop_sale_flash('')
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/woocommerce/content-product.php(42): do_action('woocommerce_bef...')
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-includes/template.php(732): require('/home/dev.lucth in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
+2021-04-12T01:49:46+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1344): wc_get_template('loop/sale-flash...')
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_show_product_loop_sale_flash('')
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/woocommerce/content-product.php(42): do_action('woocommerce_bef...')
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-includes/template.php(732): require('/home/dev.lucth in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
+2021-04-12T01:49:58+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1344): wc_get_template('loop/sale-flash...')
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_show_product_loop_sale_flash('')
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/woocommerce/content-product.php(42): do_action('woocommerce_bef...')
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-includes/template.php(732): require('/home/dev.lucth in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
+2021-04-12T02:30:12+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1344): wc_get_template('loop/sale-flash...')
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_show_product_loop_sale_flash('')
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/woocommerce/content-product.php(42): do_action('woocommerce_bef...')
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-includes/template.php(732): require('/home/dev.lucth in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
+2021-04-12T02:36:40+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1344): wc_get_template('loop/sale-flash...')
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_show_product_loop_sale_flash('')
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/woocommerce/content-product.php(42): do_action('woocommerce_bef...')
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-includes/template.php(732): require('/home/dev.lucth in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
+2021-04-12T07:20:17+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1344): wc_get_template('loop/sale-flash...')
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_show_product_loop_sale_flash('')
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/woocommerce/content-product.php(42): do_action('woocommerce_bef...')
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-includes/template.php(732): require('/home/dev.lucth in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
+2021-04-12T07:20:34+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1344): wc_get_template('loop/sale-flash...')
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_show_product_loop_sale_flash('')
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/woocommerce/content-product.php(42): do_action('woocommerce_bef...')
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-includes/template.php(732): require('/home/dev.lucth in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
+2021-04-12T07:47:21+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:25
+Stack trace:
+#0 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1344): wc_get_template('loop/sale-flash...')
+#2 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_show_product_loop_sale_flash('')
+#3 /home/dev.lucthaonguyen.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/dev.lucthaonguyen.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/dev.lucthaonguyen.vn/public_html/wp-content/themes/websitedep/woocommerce/content-product.php(42): do_action('woocommerce_bef...')
+#6 /home/dev.lucthaonguyen.vn/public_html/wp-includes/template.php(732): require('/home/dev.lucth in /home/dev.lucthaonguyen.vn/public_html/wp-content/plugins/woocommerce/templates/loop/sale-flash.php on line 25
+
